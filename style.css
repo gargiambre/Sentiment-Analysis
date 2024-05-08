@@ -1,0 +1,21 @@
+/* styles.css */
+
+/* Background gradient effect */
+body {
+    background: linear-gradient(to bottom right, #3494e6, hsl(284, 77%, 68%));
+}
+
+/* Predict button */
+.predict-button {
+    background-color: #3494e6;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.predict-button:hover {
+    box-shadow: 0 0 10px 5px #3494e6;
+}
